@@ -87,13 +87,14 @@ a {
 .page-header {
   width: 1440px;
   height: 76px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-conteiner {
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .nav-conteiner .header-nav {
@@ -103,7 +104,7 @@ a {
   background-color: #ffffff;
 }
 
-.nav-list .list-item {
+.nav-list .list-item .list-link {
   padding: 24px 0;
 }
 
@@ -143,6 +144,7 @@ g
 
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-one .s-one-h-one {
