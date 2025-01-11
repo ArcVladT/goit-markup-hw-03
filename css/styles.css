@@ -212,10 +212,10 @@ g
 .s-two-list .list-item {
   margin-left: 0;
   width: calc((100% - 72px) / 4);
+  padding: auto;
 }
 
 .s-two-list .list-item .item-h-three {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -225,7 +225,6 @@ g
 }
 
 .s-two-list .list-item .item-p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -239,7 +238,6 @@ g
 }
 
 .s-three-h-two {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -261,6 +259,7 @@ g
   border-radius: 0px 0px 4px 4px;
   margin-left: 0;
   width: calc((100% - 72px) / 4);
+  padding: auto;
 }
 
 .name-and-job-div {
@@ -268,7 +267,6 @@ g
 }
 
 .s-three-list .list-item .item-h-three {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -279,7 +277,6 @@ g
 }
 
 .s-three-list .list-item .item-p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -294,7 +291,6 @@ g
 }
 
 .s-four-h-two {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -320,7 +316,6 @@ g
 }
 
 .s-four-list .list-item .item-h-three {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -330,7 +325,6 @@ g
 }
 
 .s-four-list .list-item .item-p {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -341,6 +335,7 @@ g
 .s-four-list .list-item {
   width: calc((100% - 48px) / 3);
   margin-left: 0;
+  padding: auto;
 }
 
 .page-footer {
