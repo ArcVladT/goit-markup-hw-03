@@ -34,7 +34,6 @@ a {
 }
 
 .nav-list .list-item {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -43,7 +42,6 @@ a {
 }
 
 .nav-list .list-item .list-link {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -53,7 +51,6 @@ a {
 
 .nav-list .list-item .list-link:hover,
 .nav-list .list-item .list-link:focus {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -66,7 +63,6 @@ a {
 }
 
 .header-address .address-list .list-item .list-link {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -76,7 +72,6 @@ a {
 
 .header-address .address-list .list-item .list-link:hover,
 .header-address .address-list .list-item .list-link:focus {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -195,7 +190,8 @@ a {
 }
 .s-two-list .list-item {
   margin-left: 0;
-  width: calc((100% - 3 * 24px) / 4);
+  margin: 0;
+  flex-basis: calc((100% - 72px) / 4);
   padding: 0;
   padding-left: 0;
 }
@@ -242,9 +238,7 @@ a {
 .s-three-list .list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  margin-left: 0;
-  width: calc((100% - 3 * 24px) / 4);
-  padding: 0;
+  flex-basis: calc((100% - 72px) / 4);
   padding-left: 0;
 }
 
@@ -331,10 +325,8 @@ a {
 }
 
 .s-four-list .list-item {
-  margin-left: 0;
   width: calc((100% - 48px) / 3);
   padding: 0;
-  padding-left: 0;
 }
 
 .page-footer {
