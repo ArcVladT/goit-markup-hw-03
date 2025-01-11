@@ -189,11 +189,8 @@ a {
   gap: 24px;
 }
 .s-two-list .list-item {
-  margin-left: 0;
-  margin: 0;
   flex-basis: calc((100% - 72px) / 4);
   padding: 0;
-  padding-left: 0;
 }
 
 .s-two-list .list-item .item-h-three {
@@ -201,8 +198,11 @@ a {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  margin-left: 0;
   color: #2e2f42;
+  margin: 0;
   margin-bottom: 8px;
+  padding-left: 0;
 }
 
 .s-two-list .list-item .item-p {
@@ -235,13 +235,17 @@ a {
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
+  flex-basis: calc((100% - 72px) / 4);
+  padding: 0%;
 }
 
 .s-three-list .list-item {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
   padding-left: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
 }
 
 .name-and-job-div {
@@ -265,11 +269,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-}
-
-.s-three-list .list-item .item-img {
-  object-fit: fill;
-  width: 384px;
 }
 
 .section-four {
@@ -320,14 +319,14 @@ a {
 }
 
 .s-four-list .list-item .item-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: 360px;
+  height: 300px;
 }
 
 .s-four-list .list-item {
-  width: calc((100% - 48px) / 3);
   padding: 0;
+  width: 360px;
+  height: 420px;
 }
 
 .page-footer {
@@ -346,7 +345,7 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 }
-
+/*flex-basis: calc((100% - 72px) / 4);*/
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
