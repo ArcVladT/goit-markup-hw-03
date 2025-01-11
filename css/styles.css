@@ -233,6 +233,8 @@ a {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .s-three-list .list-item {
@@ -266,9 +268,8 @@ a {
 }
 
 .s-three-list .list-item .item-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+  object-fit: fill;
+  width: 384px;
 }
 
 .section-four {
