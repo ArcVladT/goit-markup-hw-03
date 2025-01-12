@@ -236,12 +236,12 @@ a {
   padding-right: 156px;
 }
 
-.s-three-list .list-item {
+.s-three-list .list-item-three {
   background-color: #ffffff;
   padding-left: 0;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100%-72px) / 4);
   padding: 0%;
 }
 
@@ -249,7 +249,7 @@ a {
   padding: 32px 0;
 }
 
-.s-three-list .list-item .item-h-three {
+.s-three-list .list-item-three .item-h-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -259,7 +259,7 @@ a {
   margin-bottom: 8px;
 }
 
-.s-three-list .list-item .item-p {
+.s-three-list .list-item-three .item-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -298,7 +298,7 @@ a {
   border-top: none;
 }
 
-.s-four-list .list-item .item-h-three {
+.s-four-list .list-item-four .item-h-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -307,7 +307,7 @@ a {
   margin-bottom: 8px;
 }
 
-.s-four-list .list-item .item-p {
+.s-four-list .list-item-four .item-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
