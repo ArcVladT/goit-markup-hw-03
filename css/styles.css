@@ -185,12 +185,11 @@ a {
 
 .s-two-list {
   display: flex;
-  flex-direction: row;
   gap: 24px;
 }
 .s-two-list .list-item {
   flex-basis: calc((100% - 72px) / 4);
-  padding: 0;
+  text-align: left;
 }
 
 .s-two-list .list-item .item-h-three {
@@ -337,7 +336,11 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 }
-/*flex-basis: calc((100% - 72px) / 4);*/
+/*flex-basis: calc((100% - 72px) / 4);
+
+
+
+*/
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
