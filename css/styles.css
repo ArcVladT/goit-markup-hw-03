@@ -188,7 +188,7 @@ a {
   gap: 24px;
 }
 .s-two-list .list-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px)/4);
   text-align: left;
 }
 
@@ -315,7 +315,7 @@ a {
   color: #434455;
 }
 
-.s-four-list .list-item {
+.s-four-list .list-item-four {
   padding: 0%;
   width: calc((100% - 48px) / 3);
 }
