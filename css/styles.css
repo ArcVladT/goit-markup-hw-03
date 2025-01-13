@@ -4,11 +4,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 img {
@@ -30,9 +25,7 @@ a {
   margin: 0 auto;
   height: auto;
 }
-section {
-  padding: 120px 156px;
-}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -57,7 +50,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -70,7 +63,7 @@ section {
 .nav-list .list-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -78,7 +71,7 @@ section {
 .nav-list .list-item .list-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -87,43 +80,42 @@ section {
 .nav-list .list-item .list-link:focus {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address .address-list .list-item .list-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-address .address-list .list-item .list-link:hover,
 .header-address .address-list .list-item .list-link:focus {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
 
 .page-header {
-  width: 1440px;
-  height: 120px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-conteiner {
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  align-items: center;
 }
 
 .nav-conteiner .header-nav {
@@ -135,41 +127,45 @@ section {
 
 .nav-list .list-item .list-link {
   padding: 24px 0;
+  display: block;
 }
 
 .header-logo {
-  padding-right: 76px;
-  padding-left: 0px;
+  margin-right: 76px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-right: 150px;
-  padding: 24px 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .address-list {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-top: 40px;
+  margin: 0;
 }
 
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-one .s-one-h-one {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-left: 250px;
-  max-width: 800px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 48px;
 }
 
 .button-one {
@@ -177,7 +173,7 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
@@ -187,7 +183,8 @@ section {
   border: none;
   border-radius: 4px;
   align-self: center;
-  margin-left: 430px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button-one:hover,
@@ -220,15 +217,17 @@ section {
   display: flex;
   gap: 24px;
   text-align: left;
+  margin: 0;
 }
 .s-two-list .list-item {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
+  margin: 0;
 }
 
 .s-two-list .list-item .item-h-three {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-left: 0;
   color: #2e2f42;
@@ -240,9 +239,10 @@ section {
 .s-two-list .list-item .item-p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 .section-three {
@@ -253,12 +253,13 @@ section {
 .s-three-h-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .s-three-list {
@@ -266,15 +267,14 @@ section {
   flex-direction: row;
   gap: 24px;
   padding: 0;
+  margin: 0;
 }
 
 .s-three-list .list-item-three {
   background-color: #ffffff;
-  padding-left: 0;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   flex-basis: calc((100% - 72px) / 4);
-  padding: 0;
+  margin: 0;
 }
 
 .name-and-job-div {
@@ -284,20 +284,22 @@ section {
 .s-three-list .list-item-three .item-h-three {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
+  margin: 0;
 }
 
 .s-three-list .list-item-three .item-p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin: 0;
 }
 
 .section-four {
@@ -308,12 +310,13 @@ section {
 .s-four-h-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .s-four-list {
@@ -323,6 +326,7 @@ section {
   column-gap: 24px;
   row-gap: 48px;
   padding: 0;
+  margin: 0;
 }
 
 .s-four-list-div {
@@ -334,22 +338,22 @@ section {
 .s-four-list .list-item-four .item-h-three {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 .s-four-list .list-item-four .item-p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 .s-four-list .list-item-four {
-  padding: 0%;
   width: calc((100% - 48px) / 3);
 }
 
@@ -362,11 +366,12 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
+  margin: 0;
   margin-bottom: 16px;
 }
 /*flex-basis: calc((100% - 72px) / 4);
@@ -379,8 +384,9 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin: 0;
 }
